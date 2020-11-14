@@ -33,6 +33,8 @@ echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HO
 echo -e $wh"❤❤❤❤❤❤❤"
 chsh -s zsh
 clear
+echo -e $r"________________________________________________________________________"
+echo
 echo -e $b"
 >=>       >=> >=>      >=> 
 >> >=>   >>=>  >=>    >=>  
@@ -43,7 +45,7 @@ echo -e $b"
 >=>       >=>     >=>  
                          "
                            
-echo -e $wh"
+echo -e $b"
 
 ######## ######## ########  ##     ## ##     ## ##     ## 
    ##    ##       ##     ## ###   ### ##     ##  ##   ##  
@@ -55,11 +57,15 @@ echo -e $wh"
     "
 echo -e $g"                      By John Kener "
 echo -e $g"                      OWNER OF CYBER WARRIORS COMMUNITY "$wh
+echo -e $r"________________________________________________________________________"
+echo
 echo "oh-my-zsh install complete!\nChoose your color scheme now~"
 $HOME/.termux/colors.sh
 
 echo "Choose your font now~"
 clear
+echo -e $r"________________________________________________________________________"
+echo
 echo -e $b"
 >=>       >=> >=>      >=> 
 >> >=>   >>=>  >=>    >=>  
@@ -69,7 +75,7 @@ echo -e $b"
 >=>       >=>     >=>      
 >=>       >=>     >=>      
                          "
-echo -e $wh"
+echo -e $b"
 
 ######## ######## ########  ##     ## ##     ## ##     ## 
    ##    ##       ##     ## ###   ### ##     ##  ##   ##  
@@ -81,6 +87,8 @@ echo -e $wh"
    "                                                     
 echo -e $g"                      By John Kener "
 echo -e $g"                      OWNER OF CYBER WARRIORS COMMUNITY "$wh
+echo -e $r"________________________________________________________________________"
+echo
 $HOME/.termux/fonts.sh
 
 echo "Please restart Termux app..."
