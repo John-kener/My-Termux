@@ -45,13 +45,14 @@ echo -e $b"
                            
 echo -e $wh"
 
-d888888b d88888b d8888b. .88b  d88. db    db db    db 
-`~~88~~' 88'     88  `8D 88'YbdP`88 88    88 `8b  d8' 
-   88    88ooooo 88oobY' 88  88  88 88    88  `8bd8'  
-   88    88~~~~~ 88`8b   88  88  88 88    88  .dPYb.  
-   88    88.     88 `88. 88  88  88 88b  d88 .8P  Y8. 
-   YP    Y88888P 88   YD YP  YP  YP ~Y8888P' YP    YP 
-                                                     "
+######## ######## ########  ##     ## ##     ## ##     ## 
+   ##    ##       ##     ## ###   ### ##     ##  ##   ##  
+   ##    ##       ##     ## #### #### ##     ##   ## ##   
+   ##    ######   ########  ## ### ## ##     ##    ###    
+   ##    ##       ##   ##   ##     ## ##     ##   ## ##   
+   ##    ##       ##    ##  ##     ## ##     ##  ##   ##  
+   ##    ######## ##     ## ##     ##  #######  ##     ## 
+    "
 echo -e $g"                      By John Kener "
 echo -e $g"                      OWNER OF CYBER WARRIORS COMMUNITY "$wh
 echo "oh-my-zsh install complete!\nChoose your color scheme now~"
@@ -70,13 +71,14 @@ echo -e $b"
                          "
 echo -e $wh"
 
-d888888b d88888b d8888b. .88b  d88. db    db db    db 
-`~~88~~' 88'     88  `8D 88'YbdP`88 88    88 `8b  d8' 
-   88    88ooooo 88oobY' 88  88  88 88    88  `8bd8'  
-   88    88~~~~~ 88`8b   88  88  88 88    88  .dPYb.  
-   88    88.     88 `88. 88  88  88 88b  d88 .8P  Y8. 
-   YP    Y88888P 88   YD YP  YP  YP ~Y8888P' YP    YP 
-                                                      "
+######## ######## ########  ##     ## ##     ## ##     ## 
+   ##    ##       ##     ## ###   ### ##     ##  ##   ##  
+   ##    ##       ##     ## #### #### ##     ##   ## ##   
+   ##    ######   ########  ## ### ## ##     ##    ###    
+   ##    ##       ##   ##   ##     ## ##     ##   ## ##   
+   ##    ##       ##    ##  ##     ## ##     ##  ##   ##  
+   ##    ######## ##     ## ##     ##  #######  ##     ## 
+   "                                                     
 echo -e $g"                      By John Kener "
 echo -e $g"                      OWNER OF CYBER WARRIORS COMMUNITY "$wh
 $HOME/.termux/fonts.sh
