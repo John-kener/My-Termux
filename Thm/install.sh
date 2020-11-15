@@ -87,6 +87,6 @@ echo -e $"______________________________________________________________________
 echo
 $HOME/.termux/fonts.sh
 
-echo "Please restart Termux app..."
+echo "දැන් Termux ඇප් එක restart කරන්න....!"
 
 exit
