@@ -46,6 +46,7 @@ read -p' OPTION එකක් තෝරන්න :- ' userinput1;
 if [ "${userinput1:-}" = "1" ]
 then
   cd && cd My-Termux && cd Thm && bash install.sh
+  echo
   while true; do
 
     read -p "ආපහු My-termux ටුල් එකට යන්න ඕනෙ ද?    ( y /n )  " yn
@@ -70,6 +71,7 @@ fi
 if [ "${userinput1:-}" = "3" ]
 then
       cd && cd My-Termux && cd ban && bash mybanner.sh
+      echo
       while true; do
 
     read -p "ආපහු My-termux ටුල් එකට යන්න ඕනෙ ද?    ( y /n ) :- " yn
@@ -90,6 +92,7 @@ fi
 if [ "${userinput1:-}" = "4" ]
 then
     cd && rm -rf Evil-Eye-Banner && git clone https://github.com/John-kener/Evil-Eye-Banner && cd Evil-Eye-Banner && chmod +x * && bash requirement.sh && bash Evil-banner.sh
+    echo
     while true; do
 
     read -p "ආපහු My-termux ටුල් එකට යන්න ඕනෙ ද?    ( y /n ) :-" yn
