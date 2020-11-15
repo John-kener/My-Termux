@@ -1,16 +1,14 @@
-echo -e "\e[1;32m THERE ARE SOME REQUIREMENTS ....!!!"
 echo
 echo
-pkg install figlet
-pkg install lolcat
-pkg install cowsay
-pkg install toilet
-
 # ASCII ARTS
 
 figlet Cyber |lolcat
 figlet Warriors |lolcat
-echo -e "HERE ARE SOME ASCII ARTS ,SO YOU CAN COPY AND PASTE THEM IN THE NEXT STEP ෴෴෴YOU CAN MAKE YOUR NAME    IN ASCII ART WITH THE WEB SITE GIVEN AT LAST "
+echo
+echo
+echo -e "HERE ARE SOME ASCII ARTS ,SO YOU CAN COPY AND USE THEM IN THE NEXT STEP ෴෴ "
+echo
+echo _e "෴YOU CAN MAKE YOUR NAME IN ASCII ARTS WITH THE WEB SITE GIVEN AT LAST "
 
 
 echo
