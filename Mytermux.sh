@@ -51,6 +51,21 @@ fi
 if [ "${userinput1:-}" = "2" ]
 then
       cd && cd My-Termux && cd ban && bash Asciiarts.sh
+      while true; do
+
+    read -p "ආපහු My-termux ටුල් එකට යන්න ඕනෙ ද?    ( y /n ) :- " yn
+
+    case $yn in
+
+        [Yy]* ) cd && cd My-Termux && bash Mytermux.sh ; break;;
+
+        [Nn]* ) exit && cd && cd My-Termux ;;
+
+        * ) echo "Please answer   yes    or    no.";;
+
+    esac
+
+done
 fi
 if [ "${userinput1:-}" = "3" ]
 then
@@ -64,7 +79,7 @@ then
 
         [Yy]* ) cd && cd My-Termux && bash Mytermux.sh ; break;;
 
-        [Nn]* ) cd && cd My-Termux ;;
+        [Nn]* ) exit && cd && cd My-Termux ;;
 
         * ) echo "Please answer   yes    or    no.";;
 
@@ -85,7 +100,7 @@ then
 
         [Yy]* ) cd && cd My-Termux && bash Mytermux.sh ; break;;
 
-        [Nn]* ) cd && cd My-Termux ;;
+        [Nn]* ) exit && cd && cd My-Termux ;;
 
         * ) echo "Please answer   yes    or    no.";;
 
@@ -135,7 +150,7 @@ while true; do
 
         [Yy]* ) cd && cd My-Termux && bash Mytermux.sh ; break;;
 
-        [Nn]* ) cd && cd My-Termux ;;
+        [Nn]* ) exit && cd && cd My-Termux ;;
 
         * ) echo "Please answer   yes    or    no.";;
 
