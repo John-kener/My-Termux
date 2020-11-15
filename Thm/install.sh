@@ -1,7 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 termux-setup-storage
-figlet INSTALLING
-figlet REQUIREMENTS
 apt update
 apt install -y git zsh
 git clone https://github.com/Cabbagec/termux-ohmyzsh.git "$HOME/termux-ohmyzsh" --depth 1
