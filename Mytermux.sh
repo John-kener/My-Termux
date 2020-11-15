@@ -54,6 +54,22 @@ fi
 if [ "${userinput1:-}" = "3" ]
 then
       cd && cd My-Termux && cd ban && bash mybanner.sh
+      while true; do
+
+    read -p "ආපහු My-termux ටුල් එකට යන්න ඕනෙ ද?    ( y /n )  " yn
+
+    case $yn in
+
+        [Yy]* ) cd && cd My-Termux && bash Mytermux.sh ; break;;
+
+        [Nn]* ) cd && cd My-Termux ;;
+
+        * ) echo "Please answer   yes    or    no.";;
+
+    esac
+
+done
+
 fi
 if [ "${userinput1:-}" = "4" ]
 then
