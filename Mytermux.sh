@@ -1,12 +1,3 @@
-echo
-echo
-echo -e "\e[1;33m INSTALLING REQUIREMENTS "
-echo
-echo
-pkg install figlet
-pkg install lolcat
-figlet "over"|lolcat
-sleep 2
 clear    
 
 r='\e[1;31m'
