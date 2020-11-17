@@ -1,5 +1,5 @@
 # My-banner
-Using this tool you will be able to make a shortcut ways to customise your termux as your want as  you want....!
+Using this tool you will be able to make a shortcut ways to customise your termux as you want....!
 
 # USE THESE CODES TO RUN THE TOOL
 
